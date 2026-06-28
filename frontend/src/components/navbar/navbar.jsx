@@ -15,7 +15,7 @@ import MailIcon from '@mui/icons-material/Mail';
 
 const drawerWidth = 240;
 
-export default function Navbar({content}) {
+export default function Navbar({ content }) {
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
@@ -66,7 +66,7 @@ export default function Navbar({content}) {
       </Drawer>
       <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
         <Toolbar />
-              (content)
+        {content}
       </Box>
     </Box>
   );

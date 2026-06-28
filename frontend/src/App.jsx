@@ -5,7 +5,7 @@ import Home from './components/Home'
 import Create from './components/Create'
 import Edit from './components/Edit'
 import Delete from './components/Delete'
-import Navbar from './components/navbar/Navbar'
+import Navbar from './components/navbar/navbar'
 function App() {
   return (
     <>
